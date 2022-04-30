@@ -1,0 +1,51 @@
+main {
+    margin-top: 60px;
+}
+
+.heading {
+    margin: 5px;
+    margin-top: 25px;
+}
+
+#join-btn {
+    width: 260px;
+    height: 48px;
+    background: #2B3C91;
+    border-radius: 37px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+#log-btn {
+    background: #FFFFFF;
+    border: 2px solid #2B3C91;
+    box-sizing: border-box;
+    border-radius: 37px;
+    width: 167px;
+    height: 46px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #2B3C91;
+    margin-left: 20px;
+}
+
+.login-field {
+    margin: 13px;
+}
+
+.login-field:first-of-type {
+    margin-top: 5px;
+}
+
+.button-wrapper {
+    margin: 20px;
+}
+
+body{
+    overflow: hidden;
+}
