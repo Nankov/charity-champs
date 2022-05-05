@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/charity.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/596f1933be.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -74,17 +76,52 @@
                         <span>Остават 1 ден 23 часа 15 минути 23 секунди</span>
                         <button class="join-btn">Включи се!</button>
                     </div>
-                    <select class="more-actions-dropdown">
+                    <select id="more-options" class="more-actions-dropdown">
                         <option>Още действия</option>
-                        <option>Действие 1</option>
+                        <option value="1">Покажи участници</option>
                         <option>Действие 2</option>
                     </select>
                 </div>
             </div>
+
+
         </section>
+
+        <div class="hidden participants-window">
+            <div class="participants-header">
+                <h2 class="participants-heading">Записани за каузата</h2>
+                <span>Награди участник</span>
+            </div>
+            <div class="participants-wrapper">
+                <div class="participant">
+                    <span class="participant-name">Нина Йорданова</span>
+                    <img src="./images/trophy.png" class="reward-btn">
+                </div>
+                <div class="participant">
+                    <span class="participant-name">Кристиан Беров</span>
+                    <img src="./images/trophy.png" class="reward-btn">
+                </div>
+                <div class="participant">
+                    <span class="participant-name">Емилия Петкова</span>
+                    <img src="./images/trophy.png" class="reward-btn">
+                </div>
+                <div class="participant">
+                    <span class="participant-name">Иван Димов</span>
+                    <img src="./images/trophy.png" class="reward-btn">
+                </div>
+                <div class="participant">
+                    <span class="participant-name">Светослав Димитров</span>
+                    <img src="./images/trophy.png" class="reward-btn">
+                </div>
+                <div class="button-wrapper">
+                    <img class="x-button" src="./images/X-button.png">
+                </div>
+            </div>
+        </div>
 
 
     </main>
+    <script src="./JavaScript/charity.js"></script>
 </body>
 
 </html>

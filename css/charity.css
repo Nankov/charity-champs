@@ -98,3 +98,108 @@
     margin-top: 30px;
     text-align: center;
 }
+
+.participants-window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 1224px;
+    height: 598px;
+    border: 2px solid #000000;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.participants-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.participants-header span {
+    align-self: flex-end;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.participants-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    color: #2B3C91;
+    margin: 20px;
+    margin-left: 400px;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.participant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+    height: 85px;
+}
+
+.participant:first-of-type {
+    border-top: 1px solid #EBEBEB;
+}
+
+.participant-name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #252B42;
+    margin-left: 60px;
+}
+
+.reward-btn {
+    width: 58px;
+    height: 53px;
+    margin-right: 60px;
+}
+
+.button-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.x-button{
+    height: 85px;
+    width: 65px;
+}
+
+.hidden{
+    display: none;
+}
+
+.opacity{
+    opacity: 30%;
+    pointer-events: none;
+}
+
+/* section{
+    opacity: 30%;
+}
+
+header{
+    opacity: 30%;
+}
+
+.navbar{
+    opacity: 30%;
+} */
