@@ -9,7 +9,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 140px;
+    margin-top: 60px;
 }
 
 .login-field {
@@ -65,4 +65,21 @@ button {
     flex-direction: column;
     align-items: center;
     margin: 40px;
+}
+
+.logo-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-logo{
+    display: inline;
+}
+.title{
+    display: inline;
+    font-family: 'Baskervville';
+    color: #2B3D91;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
