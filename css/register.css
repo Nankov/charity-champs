@@ -16,7 +16,10 @@ main {
     font-size: 14px;
     font-weight: 700;
     color: #FFFFFF;
+}
 
+#join-btn:hover {
+    background: #4b62d4;
 }
 
 #log-btn {
@@ -32,6 +35,10 @@ main {
     font-size: 14px;
     color: #2B3C91;
     margin-left: 20px;
+}
+
+#log-btn:hover {
+    background: #e6e6e6;
 }
 
 .login-field {
