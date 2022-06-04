@@ -114,6 +114,10 @@ main {
     color: #F9F9F9;
 }
 
+.create-btn:hover {
+    background: #576de0;
+}
+
 button {
     border: none;
     outline: none;

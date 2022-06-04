@@ -82,6 +82,10 @@
     color: #F9F9F9;
 }
 
+.join-btn:hover {
+    background: #4b62d4;
+}
+
 .more-actions-dropdown {
     height: 50px;
     width: 226px;
