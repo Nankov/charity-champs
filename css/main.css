@@ -13,7 +13,6 @@ header {
 
 .title {
     font-weight: 400;
-    /* font-size: 70px; */
     font-size: 40px;
     font-family: 'Baskervville';
     color: #2B3D91;
@@ -121,7 +120,6 @@ button {
     width: 55px;
     height: 55px;
     border-radius: 100%;
-    /* border-radius: 200px;; */
     padding: 5px;
     margin-left: 40px;
     margin-right: 40px;
