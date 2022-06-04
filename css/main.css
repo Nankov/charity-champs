@@ -16,23 +16,25 @@ header {
     /* font-size: 70px; */
     font-size: 40px;
     font-family: 'Baskervville';
-    color: #2B3D91
+    color: #2B3D91;
 }
-
+     
 main {
     background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../images/background.jpg");
+    background-size: auto auto;
     background-size: cover;
     color: #2B3C91;
     font-family: 'Montserrat';
     margin-left: calc(50% - 50vw);
     width: 100vw;
+    height: 89.5%;
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     background: rgba(0, 0, 0, 0.2);
-    margin-left: calc(50% - 50vw);
     width: 100vw;
     align-items: center;
 }
@@ -44,22 +46,14 @@ main {
     font-size: 18px;
     color: #2B3C91;
     text-decoration: none;
-    margin-left: 30px;
-}
-
-.links-wrapper {
-    margin-left: 90px;
-}
-
-.search-root {
-    margin: 15px;
+    margin-right: 30px;
 }
 
 .search-wrapper {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-left: -40px;
+    margin-right: 30px;
 }
 
 .searchfield {
@@ -68,10 +62,8 @@ main {
     border: 1px solid #eeebf1;
     background-color: #F9F9F9;
     border-radius: 30px;
-    padding-left: 15px;
     font-size: 18px;
 }
-
 
 .search-overlay {
     position: absolute;
@@ -98,7 +90,6 @@ main {
 
 .searchfield:focus {
     outline: none;
-
 }
 
 .fa-search {
@@ -128,19 +119,21 @@ button {
 
 .profile-pic {
     width: 55px;
-    height: 55px; 
+    height: 55px;
     border-radius: 100%;
     /* border-radius: 200px;; */
     padding: 5px;
     margin-left: 40px;
-    margin-right: 40px; 
+    margin-right: 40px;
 }
 
-.actions-wrapper{
+.actions-wrapper {
     display: flex;
     align-items: center;
 }
 
-/* body {
+
+ body {
     overflow-x: hidden;
-} */
+    height: 960px;
+} 
