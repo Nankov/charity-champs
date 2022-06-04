@@ -7,8 +7,6 @@
     margin-top: 40px;
 }
 
-
-
 #login-btn {
     background: #2B3C91;
     border-radius: 37px;
@@ -20,6 +18,10 @@
     font-weight: 700;
     font-size: 17px;
 
+}
+
+#login-btn:hover {
+    background: #4b62d4;
 }
 
 #register-btn {
@@ -36,14 +38,15 @@
 
 }
 
+#register-btn:hover {
+    background: #e6e6e6;
+}
+
 .input-wrapper {
     display: flex;
     flex-direction: column;
     margin: 5px;
 }
-
-
-
 
 a:visited {
     color: #2B3C91;
