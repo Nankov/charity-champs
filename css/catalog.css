@@ -34,6 +34,7 @@
 
 .filters-button:hover {
     background: #576de0;
+    cursor: pointer;
 }
 
 .categories-list {
@@ -82,10 +83,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .charity-heading span {
     margin-left: 20px;
+    cursor: pointer;
 }
 
 .expand-button {

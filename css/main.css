@@ -4,6 +4,16 @@ header {
     align-items: center;
 }
 
+.title-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.title-logo-wrapper:hover {
+    display: flex;
+    cursor: pointer;
+}
+
 .header-logo {
     width: 100px;
     padding: 5px;
@@ -35,7 +45,7 @@ main {
     justify-content: center;
     background: rgba(0, 0, 0, 0.2);
     width: 100vw;
-    height: 3vw;
+    height: 4.5vw;
     align-items: center;
 }
 
@@ -138,4 +148,8 @@ button {
 body {
     overflow-x: hidden;
     height: 960px;
+}
+
+a:hover{
+    color: #576de0;
 }

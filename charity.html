@@ -15,14 +15,16 @@
 
 <body>
     <header onclick="location.href='home.html'">
-        <div class="title">Charity</div>
-        <img class="header-logo" src="./images/logo_notext.png">
-        <div class="title">Champs</div>
+        <div class="title-logo-wrapper" onclick="location.href='home.html'">
+            <div class="title">Charity</div>
+            <img class="header-logo" src="./images/logo_notext.png">
+            <div class="title">Champs</div>
+        </div>
     </header>
     <main>
         <nav class="navbar">
             <div class="links-wrapper">
-                <a class="link" href="index.html">Начало</a>
+                <a class="link" href="home.html">Начало</a>
                 <a class="link" href="catalog.html">Каузи</a>
                 <a class="link" href="champions.html">Шампиони</a>
             </div>
@@ -65,10 +67,10 @@
                         <span>Остават 1 ден 23 часа 15 минути 23 секунди</span>
                         <button class="join-btn">Включи се!</button>
                     </div>
-                    <select id="more-options" class="more-actions-dropdown">
-                        <option>Още действия</option>
+                    <select id="more-options" class="more-actions-dropdown" text="Още действия">
                         <option value="1">Покажи участници</option>
-                        <option>Действие 2</option>
+                        <option>Докладвай кауза</option>
+                        <option>Изтрий кауза</option>
                     </select>
                 </div>
             </div>

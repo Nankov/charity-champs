@@ -12,14 +12,19 @@
   width: 25vw;
   height: 37vw;
   vertical-align: top;
+  margin-right: 5px;
 }
 
 .popular-charities-content {
-  background-color: #EBEBEB;
+  background-color: #FBFBFB;
   width: 98%;
   height: 90%;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.popular-charities-content::-webkit-scrollbar {
+  display: none;
 }
 
 .popular-header {
@@ -46,7 +51,7 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #b8b8b8;
-  background-color: #EBEBEB;
+  background-color: #FBFBFB;
 }
 
 .charity-participants-box {
@@ -80,7 +85,7 @@
   margin-top: 8px;
   margin: 0;
   line-height: 20%;
-  background: #EBEBEB;
+  background: #FBFBFB;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -122,7 +127,7 @@
 .title-wrapper {
   width: 100%;
   display: block;
-  background-color: #EBEBEB;
+  background-color: #FBFBFB;
 }
 
 .no-display {
