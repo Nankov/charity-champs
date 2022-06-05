@@ -17,7 +17,7 @@ header {
     font-family: 'Baskervville';
     color: #2B3D91;
 }
-     
+
 main {
     background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url("../images/background.jpg");
     background-size: auto auto;
@@ -111,6 +111,7 @@ main {
 
 .create-btn:hover {
     background: #576de0;
+    cursor: pointer;
 }
 
 button {
@@ -134,7 +135,7 @@ button {
 }
 
 
- body {
+body {
     overflow-x: hidden;
     height: 960px;
-} 
+}
