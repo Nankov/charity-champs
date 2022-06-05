@@ -32,6 +32,10 @@
     font-weight: 100;
 }
 
+.filters-button:hover {
+    background: #576de0;
+}
+
 .categories-list {
     align-self: center;
     overflow-y: scroll;
