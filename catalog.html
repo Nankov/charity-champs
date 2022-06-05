@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/catalog.css">
+
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/596f1933be.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -46,7 +49,7 @@
             <section class="categories-wrapper">
                 <div class="categories-header">
                     <h2 class="categories-heading">Категории</h2>
-                    <button class="filters-button"><i class="fa">&#xf1de;</i></button>
+                    <button class="filters-button" onclick="changeVisibility()"><i class="fa">&#xf1de;</i></button>
                 </div>
                 <div class="categories-list">
                     <div class="category-button">Бедствия/кризи</div>
@@ -65,6 +68,85 @@
                     <div class="category-button">Култура/изкуство</div>
 
                 </div>
+                <div id="filters" class="filters-list no-display">
+                    <div class="switch-wrapper">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                        Спешни каузи
+                    </div>
+                    <div class="filter-item">
+                        <h3>Време</h3>
+                        <label class="option-container">До 5 минути
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">До час
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">До ден
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">До няколко дни
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Дългосрочно
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div class="filter-item">
+                        <h3>Място</h3>
+                        <label class="option-container">Перник
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">София
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Варна
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Пазарджик
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Смолян
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Кюстендил
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Бургас
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Видин
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Ловеч
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Плевен
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="option-container">Ямбол
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
             </section>
             <section class="charities-wrapper">
                 <div class="charities-catalog">
@@ -187,6 +269,7 @@
 
     </main>
     <script src="./JavaScript/catalog.js"></script>
+    <script src="./JavaScript/index.js"></script>
 </body>
 
 </html>

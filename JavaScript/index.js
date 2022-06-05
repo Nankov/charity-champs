@@ -1,7 +1,7 @@
 function changeVisibility () {
-    var categories = document.getElementById("categories");
-    var filters = document.getElementById("filters");
-    var categoriesHeading = document.getElementById("categories-heading");
+    var categories = document.querySelector(".categories-list");
+    var filters = document.querySelector(".filters-list");
+    var categoriesHeading = document.querySelector(".categories-heading");
 
     if (filters.classList.contains("no-display")){
         categories.classList.add("no-display");

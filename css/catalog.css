@@ -16,9 +16,9 @@
     align-items: center;
 }
 
-#categories-heading {
-    margin-left: 30px;
-    font-size: 35px;
+.categories-heading {
+    margin-left: 30px !important;
+    font-size: 35px !important;
 }
 
 .filters-button {
@@ -36,11 +36,15 @@
     align-self: center;
     overflow-y: scroll;
     height: 80%;
+    width: 100%;
     background-color: #FBFBFB;
+    overflow-x: hidden;
+    border: 1px solid #b8b8b8;
+    margin-left: 3px;
 }
 
 .category-button {
-    width: 21.5vw;
+    width: 22.99vw;
     height: 3vw;
     border: 1px solid #EBEBEB;
     font-family: 'Montserrat';
@@ -50,7 +54,9 @@
     color: #252B42;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 25px;
+    margin-left: 8px;
+    
 }
 
 .charities-wrapper {
@@ -104,18 +110,19 @@
     padding: 20px;
 }
 
-.expanded{
+.expanded {
     background: #2B3C91 !important;
     color: rgb(240, 238, 238) !important;
 }
 
-.expanded-charity{
+.expanded-charity {
     background: rgb(231, 231, 231);
     border-bottom: none;
 }
 
-.active-category{
-    border-left: 1px  solid #2B3C91;
+.active-category {
+     border-left: 3px solid #2B3C91 !important; 
+   
 }
 
 .pages {
